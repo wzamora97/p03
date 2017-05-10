@@ -1,0 +1,56 @@
+<!--Author: William Zamora-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soccer</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="league.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="bodyStyle">
+  <!-- Navbar was default bootstrap acquired at http://getbootstrap.com/components/#navbar-default-->
+  <div class="navBar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+      <li><a href="team1.html">Team1</a></li>
+      <li><a href="team2.html">Team2</a></li>
+      <li><a href="team3.html">Team3</a></li>
+      <li><a href="team4.html">Team 4</a></li>
+      <li><a href="thoughts.html"> Final Thoughts</a></li>
+    </ul>
+  </div>
+  <div class="center">
+    <h1> Barcelona </h1>
+    <!-- image retrieved from https://en.wikipedia.org/wiki/FC_Barcelona -->
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/220px-FC_Barcelona_%28crest%29.svg.png"/>
+    <h3> Top Players </h3>
+    <p> Lionel Messi - Age 29. Has scored 358 goals in his 11 year career</P>
+      <p> Luis Suarez - Age 30. Has scored 253 goals in his 12 year career.</p>
+      <p> Neymar - Age 25. Has scored 119 in his 6 year career.</p>
+      <h3> Club Information</h3>
+      <!-- info gathered from wikipedia-->
+      <p> Domestically, Barcelona has won 24 La Liga, 28 Copa del Rey, 12 Supercopa
+        de España, 3 Copa Eva Duarte and 2 Copa de la Liga trophies, as well as being
+        the record holder for the latter four competitions. In international club football,
+        Barcelona has won five European titles — four UEFA Champions League titles
+        and one European Cup, a record four UEFA Cup Winners' Cup, a shared record
+        five UEFA Super Cup, a record three Inter-Cities Fairs Cup and a record three
+        FIFA Club World Cup. Barcelona was ranked first in the IFFHS Club World Ranking for
+        1997, 2009, 2011, 2012 and 2015 and currently occupies the third position
+        on the UEFA club rankings.The club has a long-standing rivalry with Real Madrid;
+        matches between the two teams are referred to as El Clásico.</p>
+      </div>
+      <div class="right">
+        <p> How good do you think the players are on a scale of 1 - 10?.</p>
+        <input type="text" id="team3Players">
+        <button type="button" id="t3PR" onclick="team3PR();">Submit</button>
+        <p> How good do you think the team is overall on a scale of 1 - 10?.</p>
+        <input type="text" id="team3Rating">
+        <button type="button" id="t3TButton" onclick="t3Rating();">Submit</button>
+        <p> How many goals did Messi score?</p>
+        <input type="text" id="team3Quiz">
+        <button type="button" id="t3TB" onclick="team3Quiz();">Submit</button>
+      </div>
+    </body>
+    </html>

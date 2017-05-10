@@ -1,0 +1,48 @@
+<!--Author: William Zamora-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soccer</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="league.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="bodyStyle">
+  <!-- Navbar was default bootstrap acquired at http://getbootstrap.com/components/#navbar-default-->
+  <div class="navBar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+      <li><a href="team1.html">Team1</a></li>
+      <li><a href="team2.html">Team2</a></li>
+      <li><a href="team3.html">Team3</a></li>
+      <li><a href="team4.html">Team 4</a></li>
+      <li><a href="thoughts.html"> Final Thoughts</a></li>
+    </ul>
+  </div>
+  <div class="center">
+    <h1> Juventus </h1>
+    <!-- image retrieved from http://www.juventus.com/en/ -->
+    <img src="http://www.juventus.com/pics/layout/open-graph-fallback.jpg"/>
+    <h3> Top Players </h3>
+    <p> Paulo Dybala - Age 21. Has scored 66 goals in his 4 year career</P>
+      <p> Gonzalo Higuain - Age 29. Has scored 215 goals in his 11 year career.</p>
+      <p> Mario Mandzukic - Age 30. Has scored 151 in his 12 year career.</p>
+      <h3> Club Information</h3>
+      <p> Juventus have won 61 official competitions, more than any other team in the country.
+        50 in the national First Division, which is also a record, and 11 official international competitions,
+        making them, in the latter case, the second most successful Italian club in European competition.</p>
+      </div>
+      <div class="right">
+        <p> How good do you think the players are on a scale of 1 - 10?.</p>
+        <input type="text" id="team1Players">
+        <button type="button" id="t1PR" onclick="team1PR();">Submit</button>
+        <p> How good do you think the team is overall on a scale of 1 - 10?.</p>
+        <input type="text" id="team1Rating">
+        <button type="button" id="t1B2" onclick="t1Rating();">Submit</button>
+        <p> How many goals did Mario Mandzukic score?</p>
+        <input type="text" id="team1Quiz">
+        <button type="button" id="t1TB" onclick="team1Quiz();">Submit</button>
+      </div>
+    </body>
+    </html>

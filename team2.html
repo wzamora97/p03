@@ -1,0 +1,51 @@
+<!--Author: William Zamora-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soccer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="league.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+<body class="bodyStyle">
+  <!-- Navbar was default bootstrap acquired at http://getbootstrap.com/components/#navbar-default-->
+  <div class="navBar">
+    <ul class="nav navbar-nav">
+         <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+             <li><a href="team1.html">Team1</a></li>
+             <li><a href="team2.html">Team2</a></li>
+             <li><a href="team3.html">Team3</a></li>
+             <li><a href="team4.html">Team 4</a></li>
+             <li><a href="thoughts.html"> Final Thoughts</a></li>
+       </ul>
+  </div>
+  <div class="center">
+    <h1> Manchester United </h1>
+    <!--image retrieved from http://www.manutd.com/Splash-Page.aspx-->
+    <img src="http://www.manutd.com/~/media/70B26A46043246B1A46E0060D8F91B18.ashx?h=150&w=150"/>
+    <h3> Top Players </h3>
+    <p> Zlatan Ibrahimovic - Age 35. Has scored 319 goals in his 17 year career</P>
+    <p> Paul poba - Age 24. Has scored 32 goals in his 6 year career.</p>
+    <p> Wayne Rooney - Age 31. Has scored 193 in his 12 year career.</p>
+      <h3> Club Information</h3>
+    <p> Manchester United have won a record 20 League Titles, a joint-record 12 FA Cups,
+       5 League Cups and a record 21 FA Community Shields. The club has also won
+       three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one
+       Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became
+       the first in the history of English football to achieve the treble of the Premier
+       League, the FA Cup and the UEFA Champions League</p>
+  </div>
+  <div class="right">
+    <p> How good do you think the players are on a scale of 1 - 10?.</p>
+    <input type="text" id="team2Players">
+    <button type="button" id="t2PR" onclick="team2PR();">Submit</button>
+    <p> How good do you think the team is overall on a scale of 1 - 10?.</p>
+    <input type="text" id="team2Rating">
+    <button type="button" id="t2TButton" onclick="t2Rating();">Submit</button>
+    <p> How many goals did Zlatan score?</p>
+    <input type="text" id="team2Quiz">
+    <button type="button" id="t2TButton" onclick="team2Quiz();">Submit</button>
+  </div>
+</body>
+</html>

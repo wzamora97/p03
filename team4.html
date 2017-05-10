@@ -1,0 +1,47 @@
+<!--Author: William Zamora-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soccer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="league.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+<body class="bodyStyle">
+  <!-- Navbar was default bootstrap acquired at http://getbootstrap.com/components/#navbar-default-->
+  <div class="navBar">
+    <ul class="nav navbar-nav">
+         <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
+             <li><a href="team1.html">Team1</a></li>
+             <li><a href="team2.html">Team2</a></li>
+             <li><a href="team3.html">Team3</a></li>
+             <li><a href="team4.html">Team 4</a></li>
+              <li><a href="thoughts.html"> Final Thoughts</a></li>
+       </ul>
+  </div>
+  <div class="center">
+    <h1> Bayern Munich </h1>
+    <!-- image retrieved from https://en.wikipedia.org/wiki/FC_Bayern_Munich-->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_FC_Bayern_M%C3%BCnchen.svg/220px-Logo_FC_Bayern_M%C3%BCnchen.svg.png"/>
+    <h3> Top Players </h3>
+    <p> Robert Lewandoski - Age 28. Has scored 217 goals in his 10 year career</P>
+    <p> Arjen Rpbben - Age 33. Has scored 140 goals in his 15 year career.</p>
+    <p> Thomas Muller - Age 27. Has scored 112 in his 9 year career.</p>
+      <h3> Club Information</h3>
+    <p> Since the formation of the Bundesliga, Bayern has been the dominant club in
+       German football with 27 titles and has won 9 of the last 13 titles.</p>
+  </div>
+  <div class="right">
+    <p> How good do you think the players are on a scale of 1 - 10?.</p>
+    <input type="text" id="team4Players">
+    <button type="button" id="t4PR" onclick="team4PR();">Submit</button>
+    <p> How good do you think the team is overall on a scale of 1 - 10?.</p>
+    <input type="text" id="team4Rating">
+    <button type="button" id="t4TButton" onclick="t4Rating();">Submit</button>
+    <p> How many goals did Thomas Muller score?</p>
+    <input type="text" id="team4Quiz">
+    <button type="button" id="t4TB" onclick="team4Quiz();">Submit</button>
+  </div>
+</body>
+</html>
