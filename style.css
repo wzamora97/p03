@@ -15,14 +15,14 @@
      float: left;
     }
  .navBar li a:hover {
-         background-color: yellow;
+         background-color: grey;
          list-style-type: none;
         }
  .navBar li a:visited{
    color: blue;
  }
 .bodyStyle{
-  background-color: pink;
+  background-color: gray;
 }
 
 .center{
@@ -34,4 +34,9 @@
     float: right;
     width: 300px;
     margin: 10px auto;
+}
+
+#favoritePlayer{
+  background-color: yellow;
+  font-style: italic;
 }
